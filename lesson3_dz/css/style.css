@@ -1,0 +1,37 @@
+@import "null.css";
+
+* {
+    color: seagreen;
+}
+#title {
+    color: crimson;
+}
+.lead-paragraph {
+    color: cyan;
+}
+.main-description {
+    color: red;
+}
+/* этот приоритетнее предыдущего */
+p.main-about {
+    color: darkblue;
+}
+
+li .description {
+    color: hotpink;
+}
+p span {
+    color: lime;
+}
+[class*="-title"] {
+    color: yellow;
+}
+.fourth-point > p {
+    color: thistle;
+}
+.description ~ p {
+    color: red;
+}
+.link {
+    color: teal;
+}
